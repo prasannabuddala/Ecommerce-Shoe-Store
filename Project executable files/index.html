@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PADAH</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <nav>
+        <div class="navbar">
+            <div><img src=".\images\others\shoe.png" alt="logo" class="logo"></div>
+            <div class="items">
+                <div class="item">HOME</div>
+                <div class="item"><a href="#newarrivals">NEW ARRIVALS</a></div>
+                <div class="item"><a href="#categories">CATEGORIES</a></div>
+                <div class="item"><a href="#brands">BRANDS</a></div>
+                <div class="item"><a href="#contact">CONTACT</a></div>
+            </div>
+            <div class="cart-icon" onclick="toggleCart('open')">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Shopping_cart_icon.svg/1250px-Shopping_cart_icon.svg.png"
+                    alt="Cart" />
+            </div>
+        </div>
+    </nav>
+
+    <div class="cart">
+        <h2 id="hhh">cart</h2>
+        <div class="close-icon" onclick="toggleCart('close')">
+            <img src="https://www.clipartkey.com/mpngs/m/319-3196019_close-button-icon-png-clipart-png-download-close.png"
+                alt="Close Icon" />
+        </div>
+        <div class="cart-items-section">cart is empty</div>
+        <div class="cart-total-section"></div>
+    </div>
+
+    <div class="Scroll" style="color:red;">
+        <marquee><strong>New styles on sale: 40% Discounts</strong></marquee>
+    </div>
+    <div id="section">
+        <img height="600px" src="./images/home1.jpg">
+        <div id="quote">
+            <h1><span>Wanna</span> ELEVATE</h1>
+            <h1>Your <span>OUTFIT ?</span></h1>
+        </div>
+    </div>
+    <div class="section-wrapper">
+        <h2 id="newarrivals" style="font-family:'Courier New', monospace"><strong>
+                <center>NEW ARRIVALS</center>
+            </strong></h2>
+        <div class="wrapper">
+            <div class="card">
+                <img src="./images/newarrivals/x1.jpeg" class="product-pic">
+                <div class="content">
+                    <div class="row">
+                        <div class="details">
+                            <span class="prod-description">Air Jordan 4</span>
+                            <p class="prod-price"><span class="rupee">&#8377;</span> <span class="costt">4590</span></p>
+                            <p>NIKE</p>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <button class="cart-btnn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/newarrivals/x3.jpeg" class="product-pic">
+                <div class="content">
+                    <div class="row">
+                        <div class="details">
+                            <span class="prod-description">Dylan Clog</span>
+                            <p class="prod-price"><span class="rupee">&#8377;</span> <span class="costt">3700</span></p>
+                            <p>CROCS</p>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <button class="cart-btnn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/newarrivals/x2.jpeg" class="product-pic">
+                <div class="content">
+                    <div class="row">
+                        <div class="details">
+                            <span class="prod-description">Yezzy 700 V3</span>
+                            <p class="prod-price"><span class="rupee">&#8377;</span> <span class="costt">5000</span></p>
+                            <p>ADIDAS</p>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <button class="cart-btnn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/newarrivals/x4.jpeg" class="product-pic">
+                <div class="content">
+                    <div class="row">
+                        <div class="details">
+                            <span class="prod-description">RCB Edition</span>
+                            <p class="prod-price"><span class="rupee">&#8377;</span> <span class="costt">6200</span></p>
+                            <p>PUMA</p>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <button class="cart-btnn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-wrapper">
+
+        <h2 id="categories" style="font-family:'Courier New', monospace"><strong>
+                <center>CATEGORIES</center>
+            </strong></h2>
+
+        <div class="categories-section">
+            <div id="sports" class="category-card" onclick="window.location.href='sports.html'">
+                <img src=".\images\categories\sports\showcase.jpeg" alt="sports" class="category-img" />
+                <p class="text-above-image">Sports</p>
+            </div>
+            <div id="formals" class="category-card" onclick="window.location.href='formals.html'">
+                <img src=".\images\categories\formals\showcase.jpg" alt="formals" class="category-img" />
+                <p class="text-above-image">Formals</p>
+            </div>
+            <div id="boots" class="category-card" onclick="window.location.href='boots.html'">
+                <img src=".\images\categories\bootss\showcase.jpg" alt="boots" class="category-img" />
+                <p class="text-above-image">Boots</p>
+            </div>
+            <div id="casuals" class="category-card" onclick="window.location.href='casuals.html'">
+                <img src=".\images\categories\casuals\showcase.jpg" alt="casuals" class="category-img" />
+                <p class="text-above-image">Casuals</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-wrapper-new">
+        <h2 id="brands" style="font-family: 'Courier New', monospace">
+            <center><strong>SHOP BRANDS</strong></center>
+        </h2>
+        <div class="brandsContainer" id="iddd">
+            <div class="brand-card">
+                <p class="brand-title">Nike</p>
+                <img src="./images/brands/nike.png" alt="nike-image" class="brand-img" />
+                <br />
+                <br />
+                <button onclick="displayBrandedItems('nikeItems')" class="shop-btnn" id="shop-nike">
+                    shop
+                </button>
+            </div>
+            <div class="brand-card">
+                <p class="brand-title">Fila</p>
+                <img src="./images/brands/fila.png" alt="fila-image" class="brand-img" />
+                <br />
+                <br />
+                <button onclick="displayBrandedItems('filaItems')" class="shop-btnn" id="shop-fila">
+                    shop
+                </button>
+            </div>
+            <div class="brand-card">
+                <p class="brand-title">Puma</p>
+                <img src="./images/brands/puma.png" alt="puma-image" class="brand-img" />
+                <br />
+                <br />
+                <button onclick="displayBrandedItems('pumaItems')" class="shop-btnn" id="shop-puma">
+                    shop
+                </button>
+            </div>
+            <div class="brand-card">
+                <p class="brand-title">Adidas</p>
+                <img src="./images/brands/adidas.png" alt="adidas-image" class="brand-img" />
+                <br />
+                <br />
+                <button onclick="displayBrandedItems('adidasItems')" class="shop-btnn" id="shop-adidas">
+                    shop
+                </button>
+            </div>
+        </div>
+    </div>
+    <br> <br>
+    <div id="contact-section">
+        <h1 id="contact" style="font-family: 'Courier New', monospace">
+            <center>Contact us</center>
+            <br>
+        </h1>
+        <div class="contactUs">
+            <footer class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="footer-col">
+                            <h4>company</h4>
+                            <ul>
+                                <li><a href="#">about us</a></li>
+                                <li><a href="#">our services</a></li>
+                                <li><a href="#">privacy policy</a></li>
+                                <li><a href="#">affiliate program</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>get help</h4>
+                            <ul>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">shipping</a></li>
+                                <li><a href="#">returns</a></li>
+                                <li><a href="#">order status</a></li>
+                                <li><a href="#">payment options</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>online shop</h4>
+                            <ul>
+                                <li><a href="formals.html">Formals</a></li>
+                                <li><a href="sports.html">Sports</a></li>
+                                <li><a href="casuals.html">Casuals</a></li>
+                                <li><a href="boots.html">Boots</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>follow us</h4>
+                            <div class="social-links">
+                                <img src="insta.svg">
+                                <img src="fb.svg">
+                                <img src="x.svg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
